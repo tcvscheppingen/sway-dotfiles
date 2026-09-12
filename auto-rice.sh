@@ -23,7 +23,7 @@ fc-cache -fv
 
 echo "Installed dotfiles successfully"
 echo "Installing Neovim"
-sudo dnf install neovim
+sudo dnf install -y neovim
 echo "Installing Helium Browser"
 sudo dnf enable input/helium
-sudo dnf install helium-bin
+sudo dnf install -y helium-bin
