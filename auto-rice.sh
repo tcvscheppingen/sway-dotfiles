@@ -25,5 +25,5 @@ echo "Installed dotfiles successfully"
 echo "Installing Neovim"
 sudo dnf install -y neovim
 echo "Installing Helium Browser"
-sudo dnf enable input/helium
+sudo dnf copr enable imput/helium
 sudo dnf install -y helium-bin
