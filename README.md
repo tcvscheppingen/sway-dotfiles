@@ -10,6 +10,14 @@ The installation script is intended to be used with a fresh installation of Fedo
 - Foot
 - Fedora (to install Neovim and Helium Browser with the script)
 
+## What the script does
+**Always check the contents of a script before running it***
+`auto-rice.sh` does the following:
+- Moves the dotfiles into the users home directory.
+- Downloads and installs the JetBrains Mono Nerdfont.
+- Installs Neovim
+- Installs the browser that has been configured in `.sway/config` to be launched with a shortcut (`mod + w`)
+
 ## Installation with auto rice script
 
 1. Clone the repo:
@@ -73,14 +81,6 @@ Or you can change the browser in `~/.sway/config`
 ```bash
 set $browser helium # Change default browser
 ```
-
-## What the script does
-**Always check the contents of a script before running it***
-`auto-rice.sh` does the following:
-- Moves the dotfiles into the users home directory.
-- Downloads and installs the JetBrains Mono Nerdfont.
-- Installs Neovim
-- Installs the browser that has been configured in `.sway/config` to be launched with a shortcut (`mod + w`)
 
 ## Credits
 
