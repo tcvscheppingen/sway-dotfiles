@@ -4,6 +4,8 @@ This repo contains my dotfiles for Sway, Waybar, Neovim color theme and Foot ter
 
 The installation script is intended to be used with a fresh installation of Fedora Sway, but the dotfiles can be used without the script.
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/f1ac910b-a0a1-4bf9-b28a-3a4d393d7df3" />
+
 ## Requirements
 - Sway
 - Waybar
