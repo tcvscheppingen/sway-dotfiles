@@ -80,7 +80,7 @@ dnf install helium-bin
 ```
 
 Or you can change the browser in `~/.sway/config`
-```bash
+```lua
 set $browser helium # Change default browser
 ```
 
