@@ -1,6 +1,6 @@
 # Sway Auto Rice
 
-This repo contains my dotfiles for Sway, Waybar, Neovim color theme and Foot terminal.
+This repo contains my dotfiles for Sway, Waybar, Neovim color theme and Foot terminal. The theme is designed a picture of Flåm in Norway
 
 The installation script is intended to be used with a fresh installation of Fedora Sway, but the dotfiles can be used without the script.
 
