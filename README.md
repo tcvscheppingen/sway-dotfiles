@@ -24,11 +24,11 @@ The installation script is intended to be used with a fresh installation of Fedo
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/tcvscheppingen/sway-dotfiles.git
+git clone [https://github.com/tcvscheppingen/sway-dotfiles.git](https://github.com/tcvscheppingen/sway-dotfiles-flam.git)
 ```
 2. Make the autorice script executable:
 ```bash
-cd sway-dotfiles
+cd sway-dotfiles-flam
 sudo chmod +X auto-rice.sh
 ```
 3. Run the installation script:
@@ -41,7 +41,7 @@ sh auto-rice.sh
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/tcvscheppingen/sway-dotfiles.git
+git clone [https://github.com/tcvscheppingen/sway-dotfiles.git](https://github.com/tcvscheppingen/sway-dotfiles-flam.git)
 ```
 
 2. Create a folder for the JetBrains Mono Nerdfont:
@@ -66,7 +66,7 @@ fc-cache -fv
 ```
 mkdir -p ~/.sway
 mkdir -p ~/.config
-cd ~/sway-dotfiles # Or wherever you cloned the repo
+cd ~/sway-dotfiles-flam # Or wherever you cloned the repo
 cp -a .sway/. ~/.sway/
 cp -a .config/. ~/.config/
 ```
