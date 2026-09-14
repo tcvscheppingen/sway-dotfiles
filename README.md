@@ -2,6 +2,13 @@
 
 This repo contains my dotfiles for Sway, Waybar, Neovim color theme and Foot terminal.
 
+The installation script is intended to be used with a fresh installation of Fedora Sway, but the dotfiles can be used without the script.
+
+## Requirements
+- Sway
+- Waybar
+- Foot
+- Fedora (to install Neovim and Helium Browser with the script)
 
 ## Installation
 
