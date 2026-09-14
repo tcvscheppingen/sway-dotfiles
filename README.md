@@ -81,3 +81,7 @@ set $browser helium # Change default browser
 - Downloads and installs the JetBrains Mono Nerdfont.
 - Installs Neovim
 - Installs the browser that has been configured in `.sway/config` to be launched with a shortcut (`mod + w`)
+
+## Credits
+
+Wallpaper: [Mikita Karasiou](https://unsplash.com/@starpollen)
