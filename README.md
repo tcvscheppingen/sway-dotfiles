@@ -10,7 +10,7 @@ The installation script is intended to be used with a fresh installation of Fedo
 - Foot
 - Fedora (to install Neovim and Helium Browser with the script)
 
-## Installation
+## Installation with auto rice script
 
 1. Clone the repo:
 ```bash
@@ -26,6 +26,53 @@ sudo chmod +X auto-rice.sh
 sh auto-rice.sh
 ```
 4. Refresh Sway config (`mod + shift + c` by default)
+
+## Manual installation
+
+1. Clone the repo:
+```bash
+git clone https://github.com/tcvscheppingen/sway-dotfiles.git
+```
+
+2. Create a folder for the JetBrains Mono Nerdfont:
+```bash
+mkdir -p ~/.local/share/fonts/JetBrainsMonoNerdFont
+cd ~/.local/share/fonts/JetBrainsMonoNerdFont
+```
+
+3. Download and install the font:
+```bash
+curl -LO https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip JetBrainsMono.zip
+rm JetBrainsMono.zip
+```
+
+4. Refresh font cache:
+```bash
+fc-cache -fv
+```
+
+5. Mode the dotfiles into the home folder:
+```
+mkdir -p ~/.sway
+mkdir -p ~/.config
+cd ~/sway-dotfiles # Or wherever you cloned the repo
+cp -a .sway/. ~/.sway/
+cp -a .config/. ~/.config/
+```
+
+6. (Optional) Install Helium Browser or change the default browser
+A shortcut has been configured to launch a web browser. The Sway config has been set to launch Helium Browser.
+You can either download Helium Browser:
+```bash
+dnf copr enable imput/helium
+dnf install helium-bin
+```
+
+Or you can change the browser in `~/.sway/config`
+```bash
+set $browser helium # Change default browser
+```
 
 ## What the script does
 **Always check the contents of a script before running it***
