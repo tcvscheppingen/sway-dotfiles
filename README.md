@@ -1,4 +1,4 @@
-# Sway Auto Rice
+# Sway Auto Rice - Flåm Theme
 
 This repo contains my dotfiles for Sway, Waybar, Neovim color theme and Foot terminal. The theme is designed a picture of Flåm in Norway
 
